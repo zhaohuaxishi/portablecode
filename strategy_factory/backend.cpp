@@ -1,18 +1,6 @@
-//
-//                      Copyright (C) All Rights Reserved
-//
-//                      ██████╗██╗   ██╗████████╗███████╗
-//                     ██╔════╝██║   ██║╚══██╔══╝██╔════╝
-//                     ██║     ██║   ██║   ██║   █████╗
-//                     ██║     ╚██╗ ██╔╝   ██║   ██╔══╝
-//                     ╚██████╗ ╚████╔╝    ██║   ███████╗
-//                      ╚═════╝  ╚═══╝     ╚═╝   ╚══════╝
-//
-//                          guorongfei@cvte.com
-//
-
 #include <cstdlib>
 #include <memory>
+
 #include "backend.h"
 #include "mqtt_backend.h"
 #include "mcu_backend.h"

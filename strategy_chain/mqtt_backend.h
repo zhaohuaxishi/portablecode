@@ -1,16 +1,3 @@
-//
-//                      Copyright (C) All Rights Reserved
-//
-//                      ██████╗██╗   ██╗████████╗███████╗
-//                     ██╔════╝██║   ██║╚══██╔══╝██╔════╝
-//                     ██║     ██║   ██║   ██║   █████╗
-//                     ██║     ╚██╗ ██╔╝   ██║   ██╔══╝
-//                     ╚██████╗ ╚████╔╝    ██║   ███████╗
-//                      ╚═════╝  ╚═══╝     ╚═╝   ╚══════╝
-//
-//                          guorongfei@cvte.com
-//
-
 #ifndef MQTT_BACKEND_H_WMN7OLWA
 #define MQTT_BACKEND_H_WMN7OLWA
 
