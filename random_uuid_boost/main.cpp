@@ -16,6 +16,6 @@
 #include "random_uuid.h"
 
 int main(void) {
-    std::cout << create_random_uuid() << std::endl;
+    std::cout << CreateRandomUUID() << std::endl;
     return 0;
 }

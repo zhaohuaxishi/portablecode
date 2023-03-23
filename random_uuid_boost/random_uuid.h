@@ -16,6 +16,6 @@
 
 #include <string>
 
-std::string create_random_uuid();
+std::string CreateRandomUUID();
 
 #endif /* end of include guard: UUID_H_2PDIYRLZ */

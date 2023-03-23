@@ -19,7 +19,7 @@
 
 #include "combaseapi.h"
 
-std::string create_random_uuid() {
+std::string CreateRandomUUID() {
     GUID guid;
 
     CoCreateGuid(&guid);
