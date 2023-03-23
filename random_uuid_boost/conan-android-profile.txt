@@ -1,0 +1,17 @@
+include(default)
+
+[settings]
+build_type=Release
+compiler=clang
+compiler.libcxx=libc++
+compiler.version=14
+os=Android
+os.api_level=21
+
+[tool_requires]
+android-ndk/r25c
+ninja/1.10.2
+
+[options]
+
+[env]
