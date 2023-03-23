@@ -8,8 +8,10 @@ conan_basic_setup()
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_executable(uuid ./main.cpp ./random_uuid.cpp)
+add_executable(test_uuid ./test_random_uuid.cpp ./random_uuid.cpp )
 
 target_link_libraries(uuid ${CONAN_LIBS})
+target_link_libraries(test_uuid ${CONAN_LIBS})
 
 if(WIN32)
     set_target_properties(uuid PROPERTIES COMPILE_FLAGS "/wd4819")
