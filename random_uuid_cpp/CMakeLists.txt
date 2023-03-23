@@ -4,11 +4,14 @@ project(uuid)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_executable(uuid main.cpp)
+add_executable(test_uuid ./test_random_uuid.cpp ./contrib/catch_amalgamated.cpp)
 
 if (WIN32)
     target_sources(uuid PRIVATE ./uuid_win.cpp)
+    target_sources(test_uuid PRIVATE ./uuid_win.cpp)
 else()
     target_sources(uuid PRIVATE ./uuid_linux.cpp)
+    target_sources(test_uuid PRIVATE ./uuid_linux.cpp)
 endif()
 
 if(WIN32)
